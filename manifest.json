@@ -1,8 +1,8 @@
 {
-  "manifest_version": 3,
   "name": "Diver",
+  "manifest_version": 3,
   "description": "Diver deep into elements of your webpage. Highlights all the elements of the page",
-  "version": "0.0.1",
+  "version": "0.0.0.1",
   "permissions": ["activeTab", "scripting"],
   "homepage_url": "https://github.com/thoughtlessmind/diver",
   "icons": {
