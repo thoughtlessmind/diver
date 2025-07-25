@@ -1,17 +1,36 @@
 # Diver
 
-> Dive deep into elements of your webpage. Highlights all the elements of the page
+> A developer tool that adds colorful outlines to all DOM elements on a webpage, making it easy to visualize page structure and debug layout issues.
 
-Diver is a chrome extension designed to enhance your web browsing experience by providing a unique way to interact with web elements. With a simple click, Diver adds outlines to every element on a webpage, allowing you to visualize the structure and hierarchy of the page's content.
+Diver is a Chrome extension that highlights all DOM elements on any webpage with colorful outlines. Perfect for web developers and designers to debug layout issues and understand page structure.
 
-Key Features:
+## 🚀 Features
 
-- Click to add outlines: With a single click, Diver adds outlines to every element on a webpage, highlighting their boundaries.
+- **One-Click Toggle**: Instantly add/remove colorful outlines from all page elements
+- **Visual Feedback**: Clear badge indicators (ON/OFF)
+- **Cross-Frame Support**: Works across all frames including iframes
+- **Lightweight**: Minimal performance impact
 
-- Toggle outlines on/off: Click again to remove the outlines, providing a clear view of the webpage while retaining the flexibility to quickly inspect elements again.
+## 🛠️ Installation
 
-The diver is user-friendly and lightweight, ensuring it seamlessly integrates into your browsing experience without slowing you down. It's a must-have tool for web developers and designers, enabling them to streamline their workflow and gain valuable insights into the structure of any webpage.
+### Chrome Web Store (Recommended)
+[![Add to Chrome](https://img.shields.io/badge/Add_to_Chrome-4285f4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/detail/diver/onfnfdmnccoaknhjinebmlncejnofhoc)
 
-Example Preview
+### From Source
+1. Clone: `git clone https://github.com/thoughtlessmind/diver.git`
+2. Open `chrome://extensions/`
+3. Enable "Developer mode"
+4. Click "Load unpacked" → Select project directory
+
+## 📸 Preview
 
 <img width="1280" alt="Diver-on-state" src="https://github.com/thoughtlessmind/diver/assets/51883613/b197abbe-587a-4f10-94c1-4d4d7e146350">
+
+## 🔗 Links
+
+- **[Chrome Web Store](https://chromewebstore.google.com/detail/diver/onfnfdmnccoaknhjinebmlncejnofhoc)** - Install directly
+- **[GitHub Repository](https://github.com/thoughtlessmind/diver)** - Source code
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) file for details.

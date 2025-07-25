@@ -1,0 +1,32 @@
+{
+  "name": "diver-chrome-extension",
+  "version": "0.0.1",
+  "description": "Dive deep into elements of your webpage. Highlights all the elements of the page",
+  "main": "background.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:zip": "npm run build && npm run zip",
+    "zip": "node scripts/zip.js",
+    "clean": "rimraf dist",
+    "version:patch": "npm version patch && npm run build:zip",
+    "version:minor": "npm version minor && npm run build:zip",
+    "version:major": "npm version major && npm run build:zip"
+  },
+  "keywords": [
+    "chrome-extension",
+    "web-development",
+    "debugging",
+    "dom-inspector"
+  ],
+  "author": "thoughtlessmind",
+  "license": "MIT",
+  "homepage": "https://github.com/thoughtlessmind/diver",
+  "devDependencies": {
+    "archiver": "^6.0.1",
+    "rimraf": "^5.0.5",
+    "terser": "^5.24.0"
+  },
+  "files": [
+    "dist/"
+  ]
+}
