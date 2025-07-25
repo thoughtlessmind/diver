@@ -1,3 +1,10 @@
-[].forEach.call(document.querySelectorAll("*"), function (a) {
-  a.style.outline = "none";
-});
+/**
+ * Removes the outline from all elements on the page.
+ */
+function removeOutline() {
+  document.querySelectorAll("*").forEach(function (element) {
+    element.style.removeProperty("outline");
+  });
+}
+
+removeOutline();
