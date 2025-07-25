@@ -3,7 +3,7 @@
   "manifest_version": 3,
   "description": "Adds colorful outlines to all DOM elements for easy page structure visualization and debugging.",
   "version": "0.0.0.1",
-  "permissions": ["activeTab", "scripting", "storage", "tabs"],
+  "permissions": ["activeTab", "scripting"],
   "homepage_url": "https://github.com/thoughtlessmind/diver",
   "icons": {
     "16": "images/icon-16.png",
